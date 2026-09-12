@@ -148,7 +148,7 @@ function App() {
 
 
       {/* Footer */}
-      <Footer />
+      <Footer></Footer>
 
 
       {/* Toast Notification */}
