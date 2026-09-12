@@ -74,6 +74,32 @@ When technologies are selected, I show them in the **My Stack** section.
 We can send data from **parent to child using props**.
 
 For example, I passed data from the App component to the My Stack component.
+## ❓ Common FAQ
+
+### 1. Where can we deploy the site?
+
+We can deploy the site on any hosting platform. For example, Netlify, Vercel, or Cloudflare Pages.
+
+I deployed my project on **Vercel**.
+
+### 2. Do we have to use TypeScript?
+
+No. We can use either TypeScript or JavaScript.
+
+I used **TypeScript** in this project.
+
+### 3. Can we change the title, logo, and colors?
+
+Yes. We can change the project title, logo, and colors.
+
+I used my own title, logo, and color design for this project.
+
+### 4. Where do we get the technology logos/icons?
+
+We can get technology logos from different websites or use image URLs.
+
+I used technology logo URLs in my JSON data.
+
 
 To send something from **child to parent**, we can pass a function from the parent to the child. The child can then call that function when needed.
 
