@@ -1,5 +1,4 @@
 import logo from "../assets/logo-text.png";
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -25,36 +24,28 @@ function Footer() {
                             modern technologies and tools for your next project.
                         </p>
 
-                        {/* Social Links */}
-                        <div className="flex gap-3 mt-5">
-
+                        {/* Social Links - Text Only */}
+                        <div className="flex gap-4 mt-5 text-xs font-medium text-gray-600">
                             <a
-                                href="https://github.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-100 text-black hover:bg-gray-200 transition"
+                                href="#"
+                                className="hover:text-black transition"
                             >
-                                <FaGithub size={18} />
+                                GitHub
                             </a>
 
                             <a
-                                href="https://twitter.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-100 text-black hover:bg-gray-200 transition"
+                                href="#"
+                                className="hover:text-black transition"
                             >
-                                <FaTwitter size={18} />
+                                Twitter
                             </a>
 
                             <a
-                                href="https://www.linkedin.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-100 text-black hover:bg-gray-200 transition"
+                                href="#"
+                                className="hover:text-black transition"
                             >
-                                <FaLinkedin size={18} />
+                                LinkedIn
                             </a>
-
                         </div>
                     </div>
 
@@ -67,25 +58,37 @@ function Footer() {
 
                         <ul className="space-y-3 text-sm font-medium text-gray-600">
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Technologies
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Your Stack
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Features
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Documentation
                                 </a>
                             </li>
@@ -101,25 +104,37 @@ function Footer() {
 
                         <ul className="space-y-3 text-sm font-medium text-gray-600">
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     About
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Contact
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Careers
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Blog
                                 </a>
                             </li>
@@ -135,19 +150,28 @@ function Footer() {
 
                         <ul className="space-y-3 text-sm font-medium text-gray-600">
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Privacy Policy
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Terms of Service
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-black transition">
+                                <a
+                                    href="#"
+                                    className="hover:text-black transition"
+                                >
                                     Cookie Policy
                                 </a>
                             </li>
@@ -165,11 +189,17 @@ function Footer() {
                     </p>
 
                     <div className="flex gap-5 text-xs font-medium text-gray-500">
-                        <a href="#" className="hover:text-black transition">
+                        <a
+                            href="#"
+                            className="hover:text-black transition"
+                        >
                             Privacy
                         </a>
 
-                        <a href="#" className="hover:text-black transition">
+                        <a
+                            href="#"
+                            className="hover:text-black transition"
+                        >
                             Terms
                         </a>
                     </div>
@@ -181,4 +211,5 @@ function Footer() {
         </footer>
     );
 }
+
 export default Footer;
