@@ -11,7 +11,7 @@ const Navbar = () => {
                 {/* Mobile Hamburger */}
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="text-2xl text-gray-700 md:hidden"
+                    className="text-2xl font-semibold text-gray-700 md:hidden"
                 >
                     {isMenuOpen ? "✕" : "☰"}
                 </button>
@@ -29,60 +29,68 @@ const Navbar = () => {
 
                 {/* Desktop Navigation */}
                 <div className="mx-auto hidden items-center gap-6 md:flex">
-                    <a href="#" className="text-xs text-pink-600">
+
+                    <a
+                        href="#"
+                        className="text-xs font-semibold text-pink-600"
+                    >
                         Home
                     </a>
 
                     <a
                         href="#"
-                        className="text-xs text-gray-600 hover:text-pink-600"
+                        className="text-xs font-semibold text-gray-600 hover:text-pink-600"
                     >
                         Technologies
                     </a>
 
                     <a
                         href="#"
-                        className="text-xs text-gray-600 hover:text-pink-600"
+                        className="text-xs font-semibold text-gray-600 hover:text-pink-600"
                     >
                         Projects
                     </a>
 
                     <a
                         href="#"
-                        className="text-xs text-gray-600 hover:text-pink-600"
+                        className="text-xs font-semibold text-gray-600 hover:text-pink-600"
                     >
                         About
                     </a>
 
                     <a
                         href="#"
-                        className="text-xs text-gray-600 hover:text-pink-600"
+                        className="text-xs font-semibold text-gray-600 hover:text-pink-600"
                     >
                         Contact
                     </a>
+
                 </div>
 
                 {/* Sign In / Sign Up */}
                 <div className="ml-auto flex items-center gap-2 md:gap-4">
-                    <button className="text-xs text-gray-700 cursor-pointer">
+
+                    <button className="cursor-pointer text-xs font-semibold text-gray-700">
                         Sign In
                     </button>
 
-                    <button className="btn-gradient rounded-full px-3 py-1.5 text-xs text-white md:px-4 cursor-pointer">
-
+                    <button className="btn-gradient cursor-pointer rounded-full px-3 py-1.5 text-xs font-semibold text-white md:px-4">
                         Sign Up
                     </button>
+
                 </div>
             </div>
 
             {/* Mobile Menu */}
             {isMenuOpen && (
                 <div className="border-t border-gray-100 bg-white px-5 py-4 shadow-md md:hidden">
+
                     <div className="flex flex-col gap-4">
+
                         <a
                             href="#"
                             onClick={() => setIsMenuOpen(false)}
-                            className="text-sm font-medium text-pink-600"
+                            className="text-sm font-semibold text-pink-600"
                         >
                             Home
                         </a>
@@ -90,7 +98,7 @@ const Navbar = () => {
                         <a
                             href="#"
                             onClick={() => setIsMenuOpen(false)}
-                            className="text-sm text-gray-600 hover:text-pink-600"
+                            className="text-sm font-semibold text-gray-600 hover:text-pink-600"
                         >
                             Technologies
                         </a>
@@ -98,7 +106,7 @@ const Navbar = () => {
                         <a
                             href="#"
                             onClick={() => setIsMenuOpen(false)}
-                            className="text-sm text-gray-600 hover:text-pink-600"
+                            className="text-sm font-semibold text-gray-600 hover:text-pink-600"
                         >
                             Projects
                         </a>
@@ -106,7 +114,7 @@ const Navbar = () => {
                         <a
                             href="#"
                             onClick={() => setIsMenuOpen(false)}
-                            className="text-sm text-gray-600 hover:text-pink-600"
+                            className="text-sm font-semibold text-gray-600 hover:text-pink-600"
                         >
                             About
                         </a>
@@ -114,10 +122,11 @@ const Navbar = () => {
                         <a
                             href="#"
                             onClick={() => setIsMenuOpen(false)}
-                            className="text-sm text-gray-600 hover:text-pink-600"
+                            className="text-sm font-semibold text-gray-600 hover:text-pink-600"
                         >
                             Contact
                         </a>
+
                     </div>
                 </div>
             )}
