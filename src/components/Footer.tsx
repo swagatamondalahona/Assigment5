@@ -15,7 +15,7 @@ function Footer() {
                             <img
                                 src={logo}
                                 alt="Dev Stack Logo"
-                                className="w-20 h-20 object-contain cursor-pointer"
+                                className="w-30 h-30 object-contain cursor-pointer"
                             />
                         </div>
 
