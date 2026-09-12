@@ -39,7 +39,7 @@ const Banner = () => {
                     <img
                         src={bannerImage}
                         alt="Development Stack"
-                        className="w-[250px] object-contain sm:w-[300px] lg:w-[370px]"
+                        className="w-[300px] object-contain sm:w-[360px] lg:w-[370px]"
                     />
                 </div>
 
