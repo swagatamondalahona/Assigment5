@@ -80,7 +80,7 @@ For example, I passed data from the App component to the My Stack component.
 
 We can deploy the site on any hosting platform. For example, Netlify, Vercel, or Cloudflare Pages.
 
-I deployed my project on **Vercel**.
+I deployed my project on **Netlify**.
 
 ### 2. Do we have to use TypeScript?
 
